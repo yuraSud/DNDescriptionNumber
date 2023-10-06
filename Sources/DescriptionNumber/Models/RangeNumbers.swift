@@ -1,4 +1,4 @@
 
 import Foundation
 
-typealias RangeNumbers = [String: String]
+public typealias RangeNumbers = [String: String]

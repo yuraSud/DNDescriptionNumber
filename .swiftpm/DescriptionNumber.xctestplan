@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "0124A4DE-31E5-480F-82E3-8839FCFACAAD",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "DescriptionNumberTests",
+        "name" : "DescriptionNumberTests"
+      }
+    }
+  ],
+  "version" : 1
+}

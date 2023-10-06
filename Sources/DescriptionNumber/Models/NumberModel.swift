@@ -8,6 +8,4 @@ public struct NumberModel: Codable {
     var number: Int?
     var found: Bool?
     var type: String?
-    
-    var typeRequest: TypeRequest?
 }
