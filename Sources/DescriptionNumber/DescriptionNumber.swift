@@ -12,7 +12,7 @@ public class DescriptionNumber {
     
     public init() {}
     
-    public func fetchNumber(typeRequest: TypeRequest, _ inputedNumbers: String, completionError: @escaping (Error)->()) -> AnyPublisher<NumberModel, Error> {
+    public func fetchNumber(typeRequest: TypeRequest, _ inputedNumbers: String) -> AnyPublisher<NumberModel, Error> {
          let isMath = typeRequest == TypeRequest.random
             
        return networkManager.fetchNumber(inputedNumbers, type: NumberModel.self, mathRequest: isMath)
